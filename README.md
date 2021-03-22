@@ -4,7 +4,7 @@
 
 Также добавляю свои реализации паттернов. Может быть что-то ещё. Посмотрим по ситуации
 
-![book](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/book.jpg=200x)
+![book](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/book.jpg =200x)
 
 Несмотря на лёгкий кринж от обложки, книга настолько крутая, что хочется её советовать каждому
 
