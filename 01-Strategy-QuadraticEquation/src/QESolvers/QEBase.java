@@ -3,6 +3,7 @@ package QESolvers;
 import DisciminantSolvers.DiscriminantBase;
 import DisciminantSolvers.DiscriminantBehaviour;
 import X1X2Solvers.X1X2Base;
+import X1X2Solvers.X1X2Behaviour;
 
 /**
  * Классический решатель через стандартную формулу дискриминанта
@@ -10,7 +11,7 @@ import X1X2Solvers.X1X2Base;
 public class QEBase extends QuadraticEquation {
 
   private DiscriminantBehaviour dBeh; // Решатель дискриминанта
-  private X1X2Base x1x2Beh; // Решатель х1 и х2
+  private X1X2Behaviour x1x2Beh; // Решатель х1 и х2
 
   private double a, b, c; // Параметры уравнения
 
