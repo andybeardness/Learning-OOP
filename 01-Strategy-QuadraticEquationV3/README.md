@@ -6,7 +6,7 @@
 
 ----
 
-## Проект : Решатель квадратных уравнений 3.0 (QuadraticEquationV2)
+## Проект : Решатель квадратных уравнений 3.0 (QuadraticEquationV3)
 
 Улучшенная версия [прошлой версии решателя (2.0)](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV2)
 
