@@ -47,8 +47,8 @@
 	> Определяет семейство алгоритмов, инкапсулирует каждый из них, обеспечивает взаимозаменяемость. Он позволяет модифицировать алгоритмы независимо от их использования на стороне клиента
 
 	Реализации:
-	
-		- [Решатель квадратных уравнений](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquation)
+
+	- [Решатель квадратных уравнений](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquation)
 ----
 
 ## Проекты
