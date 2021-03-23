@@ -6,7 +6,11 @@
 
 ----
 
-## Проект : Решатель квадратных уравнений
+## Проект : Решатель квадратных уравнений (QuadraticEquation)
+
+![01-QuadraticEquation.jpg](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/01-QuadraticEquation.jpg)
+
+_Если кто забыл, как выглядит квадратное уравнение_
 
 Нужно разбить задачу на части, которые могут изменится и части, которые останутся неизменными
 
