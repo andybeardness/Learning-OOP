@@ -22,9 +22,9 @@ _Если кто забыл, как выглядит квадратное ура
 
 Есть три вида решателей
 
-- Base : Через дискриминант
-- Iterative : С помощью цикла
-- Random : С помощью рандома
+- [Base](https://github.com/andybeardness/Learning-OOP/blob/main/01-Strategy-QuadraticEquationV2/src/MainBase.java) : Через дискриминант
+- [Iterative](https://github.com/andybeardness/Learning-OOP/blob/main/01-Strategy-QuadraticEquationV2/src/MainIterative.java) : С помощью цикла
+- [Random](https://github.com/andybeardness/Learning-OOP/blob/main/01-Strategy-QuadraticEquationV2/src/MainRandom.java) : С помощью рандома
 
 ----
 
