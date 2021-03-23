@@ -10,7 +10,7 @@
 
 Улучшенная версия [прошлой версии решателя](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquation)
 
-![01-QuadraticEquation.jpg](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/01-QuadraticEquation.jpg)
+![QuadraticEquation.jpg](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/sQuadraticEquation.jpg)
 
 _Если кто забыл, как выглядит квадратное уравнение_
 
