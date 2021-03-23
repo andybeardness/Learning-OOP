@@ -49,8 +49,8 @@
 	Реализации:
 
 	- [Решатель квадратных уравнений](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquation)
-	- [Решатель квадратных уравнений 2.0](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV2)
-	- [Решатель квадратных уравнений 3.0](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV3)
+	- [Решатель квадратных уравнений v2](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV2)
+	- [Решатель квадратных уравнений v3](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV3)
 
 ----
 
