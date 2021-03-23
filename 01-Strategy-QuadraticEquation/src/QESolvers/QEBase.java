@@ -28,6 +28,9 @@ public class QEBase extends QuadraticEquation {
     this.a = a;
     this.b = b;
     this.c = c;
+
+    dBeh = new DiscriminantBase(a, b, c);
+    x1x2Beh = new X1X2Base(a, b, c);
   }
 
   /**
@@ -37,7 +40,6 @@ public class QEBase extends QuadraticEquation {
    */
   @Override
   public void solveDiscriminant() throws Exception {
-    dBeh = new DiscriminantBase(a, b, c);
     dBeh.solve();
 
     hasTwoSolves = dBeh.hasTwoSolves();
@@ -50,7 +52,6 @@ public class QEBase extends QuadraticEquation {
    */
   @Override
   public void solveX() throws Exception {
-    x1x2Beh = new X1X2Base(a, b, c);
     x1x2Beh.setD(dBeh.getD());
   }
 
