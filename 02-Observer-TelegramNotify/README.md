@@ -16,9 +16,9 @@
 
 ### О реализации :
 
-Интерфейс [Subject](#) позволяет работать с наблюдателями
+Интерфейс [Subject](https://github.com/andybeardness/Learning-OOP/blob/main/02-Observer-TelegramNotify/src/TGBot/Subject.java) позволяет работать с наблюдателями
 
-Его реализует класс [Bot](#), который напрямую работает с юзерами
+Его реализует класс [Bot](https://github.com/andybeardness/Learning-OOP/blob/main/02-Observer-TelegramNotify/src/TGBot/Bot.java), который напрямую работает с юзерами
 
 ----
 
