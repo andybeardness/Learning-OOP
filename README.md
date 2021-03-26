@@ -60,6 +60,7 @@
 
 	Реализации :
 	- [Telegram-Оповещатель с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/02-Observer-TelegramNotify)
+	- [Telegram-Оповещатель с GUI 2.0](https://github.com/andybeardness/Learning-OOP/tree/main/02-Observer-TelegramNotifyV2)
 ----
 
 ## Проекты
