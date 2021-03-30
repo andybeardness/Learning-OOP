@@ -39,23 +39,23 @@
 
 У которой есть два наследника :
 	
-	- [Gender](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Genders/CaloriesGender.java) - Отвечает за пол человека. С него начинается декарирование
-	- [Feature](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeature.java) - Отвечает за фичи, которые корректируют подсчёт калорий
+- [Gender](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Genders/CaloriesGender.java) - Отвечает за пол человека. С него начинается декарирование
+- [Feature](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeature.java) - Отвечает за фичи, которые корректируют подсчёт калорий
 
 Реализации пола :
 
-	- [Male](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Genders/CaloriesGenderMale.java) - Мужской
-	- [Female](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Genders/CaloriesGenderFemale.java) - Женский
+- [Male](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Genders/CaloriesGenderMale.java) - Мужской
+- [Female](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Genders/CaloriesGenderFemale.java) - Женский
 
 Разновидности фич :
 
-	- [Age](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeatureAge.java) - Отвечает за учёт возраста
-	- [Weight](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeatureWeight.java) - Отвечает за учёт веса
-	- [Height](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeatureHeight.java) - Отвечает за учёт роста
+- [Age](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeatureAge.java) - Отвечает за учёт возраста
+- [Weight](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeatureWeight.java) - Отвечает за учёт веса
+- [Height](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeatureHeight.java) - Отвечает за учёт роста
 
 Для реализации новой фичи необходимо :
 
-	- Создать класс, который наследуется от [Feature](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeature.java) и имеет такой код
+- Создать класс, который наследуется от [Feature](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeature.java) и имеет такой код
 
 	```java
 	package AppCalories.CaloriesCalculator.Features;
