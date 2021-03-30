@@ -58,14 +58,10 @@
 - Создать класс, который наследуется от [Feature](https://github.com/andybeardness/Learning-OOP/blob/main/03-Decorator-CaloriesCalculator/src/AppCalories/CaloriesCalculator/Features/CaloriesFeature.java) и имеет такой код
 
 	```java
-	package AppCalories.CaloriesCalculator.Features;
-
-	import AppCalories.CaloriesCalculator.Base.CaloriesBase;
-
 	/**
 	 * Декоратор для учёта кислорода в воздухе, например
 	 */
-	public class CaloriesFeatureAge extends CaloriesFeature {
+	public class CaloriesFeatureOxy extends CaloriesFeature {
 
 	  /**
 	   * Конструктор декоратора
@@ -73,7 +69,7 @@
 	   * @param oxy Количество кислорода
 	   * @param cb Персона
 	   */
-	  public CaloriesFeatureAge(double oxy, CaloriesBase cb) {
+	  public CaloriesFeatureOxy(double oxy, CaloriesBase cb) {
 	    this.value = oxy; // Присваем value наше значение oxy
 	    this.cb = cb; // Ссылаемся на персону
 
@@ -83,6 +79,72 @@
 	    this.coef = cb.getGender() ? 1.4 : 8.8;
 	  }
 
+	}
+	```
+
+- Создать своего слушателя для кнопки "Посчитать" и реализовать его примерно так
+
+	```java
+	/**
+	 * Класс для кастомного слушателя
+	 *
+	 * Так как в нём обрабатываются декораторы -- его нужно вынести,
+	 *    чтобы в будущем апгрейдить приложение, добавляя декораторы
+	 */
+	public class CaloriesButtonListenerWithOxy implements CaloriesButtonListenerInterface {
+
+	  /**
+	   * Возвращает слушателя
+	   *
+	   * @param isFemale Ответ на вопрос "Персона является женщиной?"
+	   * @param age Возраст
+	   * @param weight Вес
+	   * @param height Рост
+	   * @param label Ссылка на объект, где должен выводиться результат
+	   *
+	   * @return Слушатель для кнопки "Посчитать"
+	   */
+	  @Override
+	  public ActionListener getListener(boolean isFemale, double age, double weight, double height, double oxy, JLabel label) {
+	    return new ActionListener() {
+	      @Override
+	      public void actionPerformed(ActionEvent e) {
+	        // Создаю персону исходя из пола
+	        CaloriesBase person = isFemale ? new CaloriesGenderFemale() : new CaloriesGenderMale();
+
+	        // Модифицирую декораторами
+	        person = new CaloriesFeatureAge(age, person);
+	        person = new CaloriesFeatureWeight(weight, person);
+	        person = new CaloriesFeatureHeight(height, person);
+	        person = new CaloriesFeatureOxy(oxy, person); // Наш декоратор с фичей
+
+	        // Меняю текст на лейбле с результатом
+	        label.setText(
+	            "<html>" +
+	                "<p> Ваша норма калорий : " + (long) person.getCalories() + " ккал в день</p>" +
+	                "</html>");
+	      }
+	    };
+	  }
+	}
+
+	```
+
+- Инициализировать GUI с этим слушателем
+
+	```java
+	/**
+	 * Класс приложения
+	 * Запускает ГУИ
+	 */
+	public class AppOxy {
+
+	  /**
+	   * Запуск ГУИ
+	   */
+	  public void run() {
+	    new GUI(new CaloriesButtonListenerWithOxy()).run();
+	  }
 	}
 	```
 
