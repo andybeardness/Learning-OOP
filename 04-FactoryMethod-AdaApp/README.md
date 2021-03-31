@@ -32,7 +32,7 @@
 Быстрый обзор по пакетам :
 
 - [Colors](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Colors)
-	> Там статический класс, отвечающий за цвета [Monokai(https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended)
+	> Там статический класс, отвечающий за цвета [Monokai](https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended)
 
 - [Dater](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Dater)
 	> Там два класса : один отвечает за расписание смены дневной и ночной темы приложения, а второй за обновление времени. В общем, они отвечают за работу со временем
