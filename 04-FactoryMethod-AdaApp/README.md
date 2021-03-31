@@ -46,6 +46,7 @@
 - [Threads](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Threads)
 	> Классы, отвечающие за потоки. Один поток запускает GUI, второй обновляет в нём время
 
+
 Файл [App](https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/App.java) нужен для запуска приложения. Он инициализирует GUI и два потока и запускает всё, что нужно
 ----
 
