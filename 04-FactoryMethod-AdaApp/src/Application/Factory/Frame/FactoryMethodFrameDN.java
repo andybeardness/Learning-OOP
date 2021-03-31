@@ -28,15 +28,15 @@ public class FactoryMethodFrameDN extends FactoryMethodFrame {
   @Override
   public JFrame createFrame() {
     JFrame frame = new JFrame();
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setSize(400, 250);
+    
     if (DateLimiter.isNight(hour)) {
       frame.setTitle("Адаптивное ПО | Тема : Ночь");
-
     }
     else {
       frame.setTitle("Адаптивное ПО | Тема : День");
     }
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setSize(400, 250);
 
     return frame;
   }

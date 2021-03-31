@@ -38,13 +38,11 @@ public class FactoryMethodButtonDN extends FactoryMethodButton {
       button.setBackground(Colors.COLOR_BACKGROUND);
       button.setForeground(Colors.COLOR_GREEN);
       button.setBorder(new LineBorder(Colors.COLOR_GREEN));
-
     }
     else {
       button.setBackground(Colors.COLOR_FOREGROUND);
       button.setForeground(Colors.COLOR_ORANGE);
       button.setBorder(new LineBorder(Colors.COLOR_ORANGE));
-
     }
 
     return button;

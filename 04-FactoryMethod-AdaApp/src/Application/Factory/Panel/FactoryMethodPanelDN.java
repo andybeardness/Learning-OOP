@@ -31,19 +31,18 @@ public class FactoryMethodPanelDN extends FactoryMethodPanel {
   @Override
   public JPanel createPanel() {
     JPanel panel = new JPanel(new GridLayout(2, 1));
-
-    if (DateLimiter.isNight(hour)) {
-      panel.setBackground(Colors.COLOR_BACKGROUND);
-
-    } else {
-      panel.setBackground(Colors.COLOR_FOREGROUND);
-    }
-
     panel.setBorder(
         BorderFactory.createEmptyBorder(
             15, 15, 15, 15
         )
     );
+
+    if (DateLimiter.isNight(hour)) {
+      panel.setBackground(Colors.COLOR_BACKGROUND);
+    } 
+    else {
+      panel.setBackground(Colors.COLOR_FOREGROUND);
+    }
 
     return panel;
   }
