@@ -6,7 +6,7 @@
 
 ----
 
-## Проект : Калькулятор калорий с GUI (CaloriesCalculator)
+## Проект : Калькулятор калорий с GUI Hard Core (CaloriesCalculatorHardCore)
 
 То же самое, что в приложении [Калькулятор калорий с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/03-Decorator-CaloriesCalculator), но с изменениями :
 
