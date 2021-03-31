@@ -1,6 +1,6 @@
 package AppCalories.GUI;
 
-import javax.swing.*;
+import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 
 /**

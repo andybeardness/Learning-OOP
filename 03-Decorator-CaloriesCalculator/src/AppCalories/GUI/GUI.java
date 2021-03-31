@@ -1,12 +1,5 @@
 package AppCalories.GUI;
 
-import AppCalories.CaloriesCalculator.Base.CaloriesBase;
-import AppCalories.CaloriesCalculator.Features.CaloriesFeatureAge;
-import AppCalories.CaloriesCalculator.Features.CaloriesFeatureHeight;
-import AppCalories.CaloriesCalculator.Features.CaloriesFeatureWeight;
-import AppCalories.CaloriesCalculator.Genders.CaloriesGenderFemale;
-import AppCalories.CaloriesCalculator.Genders.CaloriesGenderMale;
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JComboBox;

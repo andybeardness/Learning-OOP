@@ -7,7 +7,7 @@ import AppCalories.CaloriesCalculator.Features.CaloriesFeatureWeight;
 import AppCalories.CaloriesCalculator.Genders.CaloriesGenderFemale;
 import AppCalories.CaloriesCalculator.Genders.CaloriesGenderMale;
 
-import javax.swing.*;
+import javax.swing.JLabel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
