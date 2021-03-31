@@ -24,29 +24,29 @@
 
 Тут использую четыре фабрики :
 
-- Фрейм -- для, собственно, приложения
-- Панель -- для раположения элементов
-- Лейбл -- для отображения даты-времени
-- Кнопка -- для красоты
+- (Фрейм)[https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Frame/FactoryMethodFrameDN.java] -- для, собственно, приложения
+- (Панель)[https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Panel/FactoryMethodPanelDN.java] -- для раположения элементов
+- (Лейбл)[https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Label/FactoryMethodLabelDN.java] -- для отображения даты-времени
+- (Кнопка)[https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Button/FactoryMethodButtonDN.java] -- для красоты
 
 Быстрый обзор по пакетам :
 
-- Colors
+- (Colors)[https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Colors]
 	> Там статический класс, отвечающий за цвета (Monokai)[https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended]
 
-- Dater
+- (Dater)[https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Dater]
 	> Там два класса : один отвечает за расписание смены дневной и ночной темы приложения, а второй за обновление времени. В общем, они отвечают за работу со временем
 
-- Factory
+- (Factory)[https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Factory]
 	> Тут все фабрики разбитые по пакетам. В каждом пакете есть абстрактный класс и реализация
 
-- GUI
+- (GUI)[https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/GUI]
 	> Класс, отвечающий за GUI
 
-- Threads
+- (Threads)[https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Threads]
 	> Классы, отвечающие за потоки. Один поток запускает GUI, второй обновляет в нём время
 
-Файл App нужен для запуска приложения. Он инициализирует GUI и два потока и запускает всё, что нужно
+Файл (App)[https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/App.java] нужен для запуска приложения. Он инициализирует GUI и два потока и запускает всё, что нужно
 ----
 
 ### Плюсы и минусы реализации : 
