@@ -32,14 +32,13 @@
 
 ### О реализации :
 
-Фабрика тут в объектах интерфейса. Каждая фабрика в конструкторе принимает час суток. Исходя из этого фабрика решает, какой объект вернуть -- со светлой темой (день) или с тёмной (ночь)
+[Фабрика](https://github.com/andybeardness/Learning-OOP/blob/main/05-AbstractFactory-AdaAppPlus/src/Application/Factory/Factory.java) создает разные объекты интерфейса :
 
-Тут использую четыре фабрики :
-
-- [Фрейм](https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Frame/FactoryMethodFrameDN.java) -- для, собственно, приложения
-- [Панель](https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Panel/FactoryMethodPanelDN.java) -- для раположения элементов
-- [Лейбл](https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Label/FactoryMethodLabelDN.java) -- для отображения даты-времени
-- [Кнопка](https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/Factory/Button/FactoryMethodButtonDN.java) -- для красоты
+- Фрейм
+- Панель
+- Лейбл
+- Кнопку
+- Картинку
 
 Быстрый обзор по пакетам :
 
@@ -50,7 +49,7 @@
 	> Там два класса : один отвечает за расписание смены дневной и ночной темы приложения, а второй за обновление времени. В общем, они отвечают за работу со временем
 
 - [Factory](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Factory)
-	> Тут все фабрики разбитые по пакетам. В каждом пакете есть абстрактный класс и реализация
+	> Абстрактная фабрика и её интерфейс
 
 - [GUI](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/GUI)
 	> Класс, отвечающий за GUI
@@ -66,9 +65,9 @@
 
 #### ✔️ Плюсы :
 
-- ✔️ Хороший паттерн, мне кажется, я реализовал его хорошо. Гибко, удобно, понятно, наглядно, шикарно и тд
+- ✔️ [x2] Хороший паттерн, мне кажется, я реализовал его хорошо. Гибко, удобно, понятно, наглядно, шикарно и тд
 
 
 #### ❌ Минусы :
 
-Нет минусов, идеальное ПО, идеальная реализация
+[x2] Нет минусов, идеальное ПО, идеальная реализация
