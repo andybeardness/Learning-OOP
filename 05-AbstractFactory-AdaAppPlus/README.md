@@ -42,19 +42,19 @@
 
 Быстрый обзор по пакетам :
 
-- [Colors](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Colors)
+- [Colors](https://github.com/andybeardness/Learning-OOP/tree/main/05-AbstractFactory-AdaAppPlus/src/Application/Colors)
 	> Там статический класс, отвечающий за цвета [Monokai](https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended)
 
-- [Dater](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Dater)
+- [Dater](https://github.com/andybeardness/Learning-OOP/tree/main/05-AbstractFactory-AdaAppPlus/src/Application/Dater)
 	> Там два класса : один отвечает за расписание смены дневной и ночной темы приложения, а второй за обновление времени. В общем, они отвечают за работу со временем
 
-- [Factory](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Factory)
+- [Factory](https://github.com/andybeardness/Learning-OOP/tree/main/05-AbstractFactory-AdaAppPlus/src/Application/Factory)
 	> Абстрактная фабрика и её интерфейс
 
-- [GUI](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/GUI)
+- [GUI](https://github.com/andybeardness/Learning-OOP/tree/main/05-AbstractFactory-AdaAppPlus/src/Application/GUI)
 	> Класс, отвечающий за GUI
 
-- [Threads](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp/src/Application/Threads)
+- [Threads](https://github.com/andybeardness/Learning-OOP/tree/main/05-AbstractFactory-AdaAppPlus/src/Application/Threads)
 	> Классы, отвечающие за потоки. Один поток запускает GUI, второй обновляет в нём время
 
 Файл [App](https://github.com/andybeardness/Learning-OOP/blob/main/04-FactoryMethod-AdaApp/src/Application/App.java) нужен для запуска приложения. Он инициализирует GUI и два потока и запускает всё, что нужно
