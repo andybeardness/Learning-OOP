@@ -18,7 +18,7 @@
 
 Поэтому вот мем про очередь :
 
-![TelegramQueue.jpg](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/TelegramQueue.jpg)
+![TelegramQueue.jpg](https://raw.githubusercontent.com/andybeardness/Learning-OOP/main/imgs/TelegramQueueUpd.jpg)
 
 ----
 
