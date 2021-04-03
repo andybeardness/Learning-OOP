@@ -96,7 +96,7 @@
 	
 	Реализации :
 	
-	- [Telegram-Очередь с GUI](#) | (скоро) ????
+	- [Telegram-Очередь с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/06-Singleton-TelegramQueue)
 
 - 🔸 Команда :
 	> ...
