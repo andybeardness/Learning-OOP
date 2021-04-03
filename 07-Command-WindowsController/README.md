@@ -24,10 +24,10 @@
 
 В нём есть такие файлы :
 
-- Command : Интерфейс паттерна
-- CommandOpenCalc : Конкретный класс для открытия Калькулятора
-- CommandOpenNote : Конкретный класс для открытия Блокнота
-- CommandOpenPaint : Конкретный класс для открытия Paint
+- [Command](https://github.com/andybeardness/Learning-OOP/blob/main/07-Command-WindowsController/src/ControllerApp/Command/Command.java) : Интерфейс паттерна
+- [CommandOpenCalc](https://github.com/andybeardness/Learning-OOP/blob/main/07-Command-WindowsController/src/ControllerApp/Command/CommandOpenCalc.java) : Конкретный класс для открытия Калькулятора
+- [CommandOpenNote](https://github.com/andybeardness/Learning-OOP/blob/main/07-Command-WindowsController/src/ControllerApp/Command/CommandOpenNote.java) : Конкретный класс для открытия Блокнота
+- [CommandOpenPaint](https://github.com/andybeardness/Learning-OOP/blob/main/07-Command-WindowsController/src/ControllerApp/Command/CommandOpenPaint.java) : Конкретный класс для открытия Paint
 
 ----
 
