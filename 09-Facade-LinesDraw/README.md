@@ -20,7 +20,13 @@
 
 ### О реализации :
 
+Класс [Drawer](https://github.com/andybeardness/Learning-OOP/blob/main/09-Facade-LinesDraw/src/GUI/Drawer.java) реализует по-отдельности методы рисования каждой линии
 
+Поэтому их нужно объединить в осмыслленые рисунки
+
+Эти и занимается паттер Фасад в классе [FacadeDraw](https://github.com/andybeardness/Learning-OOP/blob/main/09-Facade-LinesDraw/src/GUI/FacadeDraw.java)
+
+Приложение [App](https://github.com/andybeardness/Learning-OOP/blob/main/09-Facade-LinesDraw/src/GUI/App.java) наследуется от JFrame и отрисовывает фигуры с помощью фасада
 
 ----
 
