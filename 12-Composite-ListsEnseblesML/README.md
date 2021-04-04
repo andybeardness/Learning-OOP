@@ -24,12 +24,12 @@
 
 ### О реализации :
 
-Реализовал через единый интерфейс Composite. От него выходят две реализации :
+Реализовал через единый интерфейс [Composite](https://github.com/andybeardness/Learning-OOP/blob/main/12-Composite-ListsEnseblesML/src/ML/Models/Composite.java). От него выходят две реализации :
 
-- Model : Отвечает за единстенную модель
-- Ensemble : Отвечает за ансамбль моделей
+- [Model](https://github.com/andybeardness/Learning-OOP/blob/main/12-Composite-ListsEnseblesML/src/ML/Models/Model.java) : Отвечает за единстенную модель
+- [Ensemble](https://github.com/andybeardness/Learning-OOP/blob/main/12-Composite-ListsEnseblesML/src/ML/Models/Ensemble.java) : Отвечает за ансамбль моделей
 
-Для инициализации весов и ансамблей используется класс ML
+Для инициализации весов и ансамблей используется класс [ML](https://github.com/andybeardness/Learning-OOP/blob/main/12-Composite-ListsEnseblesML/src/ML/ML.java)
 
 Остальные классы остались почти без изменений. Только минорные фиксы их постигли
 
