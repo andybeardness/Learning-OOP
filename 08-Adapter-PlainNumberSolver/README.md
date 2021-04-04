@@ -22,7 +22,7 @@
 
 В этом нет смысла, так как Х не станет нацело делиться на на У, который больше чем Х / 2
 
-Поэтому я реализовал [улучшенный решатель](https://github.com/andybeardness/Learning-OOP/blob/main/08-Adapter-PlainNumberSolver/src/PlainNumberNew/PlainNumberNewSolver.java), который исправляет эту проблему c помощью [Адаптера](https://github.com/andybeardness/Learning-OOP/blob/main/08-Adapter-PlainNumberSolver/src/PlainNumberNew/PNNAdapter.java)
+Поэтому я реализовал [улучшенный решатель](https://github.com/andybeardness/Learning-OOP/blob/main/08-Adapter-PlainNumberSolver/src/PlainNumberNew/PlainNumberNewSolver.java), который исправляет эту проблему c помощью [адаптера](https://github.com/andybeardness/Learning-OOP/blob/main/08-Adapter-PlainNumberSolver/src/PlainNumberNew/PNNAdapter.java)
 
 Вот пример работы программы :
 
