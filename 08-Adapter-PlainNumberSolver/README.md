@@ -39,7 +39,7 @@
 	 * Number 97 is plain? :: true
 	 */
     int[] numbers = {10, 15, 17, 21, 97};
-    PNBase pnBase = new PlainNumberBaseSolver();
+    PNBase pnBase = new PlainNumberBaseSolver(); // Базовый класс
     App app = new App(pnBase);
     for (int number : numbers) {
       System.out.println("Number " + number + " is plain? :: " + app.isPlainNumber(number));
@@ -60,7 +60,7 @@
 	 * Number 97 is plain? :: true
 	 */
     int[] numbers = {10, 15, 17, 21, 97};
-    PNBase pnBase = new PNNAdapter();
+    PNBase pnBase = new PNNAdapter(); // Адаптер к новому классу
     App app = new App(pnBase);
     for (int number : numbers) {
       System.out.println("Number " + number + " is plain? :: " + app.isPlainNumber(number));
