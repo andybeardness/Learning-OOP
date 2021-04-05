@@ -64,8 +64,6 @@
 - ✔️ **Стратегия**
 	> Определяет семейство алгоритмов, инкапсулирует каждый из них, обеспечивает взаимозаменяемость. Он позволяет модифицировать алгоритмы независимо от их использования на стороне клиента
 
-	Реализации :
-
 	- [Решатель квадратных уравнений](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquation)
 	- [Решатель квадратных уравнений 2.0](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV2)
 	- [Решатель квадратных уравнений 3.0](https://github.com/andybeardness/Learning-OOP/tree/main/01-Strategy-QuadraticEquationV3)
@@ -73,15 +71,11 @@
 - ✔️ **Наблюдатель**
 	> Определяет отношением "один ко многим" между объектами так, что при изменении состояния одного объекта происходит автоматическое оповещение и обновление всех зависимых объектов
 
-	Реализации :
-
 	- [Telegram-Оповещатель с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/02-Observer-TelegramNotify)
 	- [Telegram-Оповещатель с GUI 2.0](https://github.com/andybeardness/Learning-OOP/tree/main/02-Observer-TelegramNotifyV2)
 
 - ✔️ **Декоратор**
 	> Добавляет уже сущестующему объекту новое поведение, декарируя старый класс новым. Наследование в нём используется только ради согласования типов
-
-	Реализации :
 
 	- [Калькулятор калорий с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/03-Decorator-CaloriesCalculator)
 	- [Калькулятор калорий с GUI Hard Core](https://github.com/andybeardness/Learning-OOP/tree/main/03-Decorator-CaloriesCalculatorHardCore)
@@ -89,43 +83,31 @@
 - ✔️ **Простая фабрика и Фабричный метод** :
 	> Определяет интерфейс создания объекта. При этом позволяет субклассам выбрать класс создаваемого экземпляра. Таким образом, ФМ делегирует операцию создания экзепляра субклассам
 
-	Реализации :
-
 	- [Адаптиное GUI >> Время](https://github.com/andybeardness/Learning-OOP/tree/main/04-FactoryMethod-AdaApp)
 
 - ✔️ **Абстрактная фабрика** :
 	> Предоставляет интерфейс создания семейств взаимосвязанных или взаимозависимых объектов без указания их конкретных классов
-	
-	Реализации :
 	
 	- [Адаптиное GUI >> Время + Язык + Страна](https://github.com/andybeardness/Learning-OOP/tree/main/05-AbstractFactory-AdaAppPlus)
 
 - ✔️ **Одиночка** :
 	> Гарантирует, что класс имеет только один экземпляр, и предоставляет глобальную точку доступа к этому экземпляру
 	
-	Реализации :
-	
 	- [Telegram-Очередь с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/06-Singleton-TelegramQueue)
 
 - ✔️ **Команда** :
 	> Инкапсулирует запрос в виде объекта, делая возможной параметризацию клиентских объектов с другими запросами, организацию очереди или регистрацию запросов, а также поддержку отмены операций
 
-	Реализации :
-	
 	- [Пуль управления Windows](https://github.com/andybeardness/Learning-OOP/tree/main/07-Command-WindowsController)
 
 - ✔️ **Адаптер** :
 	> Преобразует интерфейс класса к другому интерфейсу, на который рассчитан клиент. Адаптер обеспечивает совместную работу классов, невозможную в обычных условиях из-за несовместимости интерфейсов
 
-	Реализации :
-	
 	- [Определение простого числа](https://github.com/andybeardness/Learning-OOP/tree/main/08-Adapter-PlainNumberSolver)
 
 - ✔️ **Фасад** :
 	> Предоставляет унифицированный интерфейс к группе интерфейсов подсистемы. Фасад определеляет высокоуровневый интерфейс, упрощающий работу с подсистемой
 
-	Реализации :
-	
 	- [Рисователь линий](https://github.com/andybeardness/Learning-OOP/tree/main/09-Facade-LinesDraw)
 
 - ✔️ **Шаблонный метод** :
