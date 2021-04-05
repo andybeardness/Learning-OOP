@@ -33,7 +33,7 @@
 
 Работает так :
 
-![ListsEnseblesML.gif](https://github.com/andybeardness/Learning-OOP/blob/main/imgs/MarkovHospital.gif)
+![MarkovHospital.gif](https://github.com/andybeardness/Learning-OOP/blob/main/imgs/MarkovHospital.gif)
 
 ----
 
