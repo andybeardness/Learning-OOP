@@ -161,7 +161,7 @@
 
 	Реализации :
 	
-	- [Проверка курсов доллара и евро с GUI](#) | скоро
+	- [Проверка курсов доллара и евро с GUI](https://github.com/andybeardness/Learning-OOP/tree/main/14-Proxy-ExchangeRatesGUI)
 
 ----
 
